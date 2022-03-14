@@ -1,19 +1,24 @@
-apply plugin: "java"
-apply plugin: "application"
+plugins {
+    id "java"
+    id "application"
+    id "com.github.johnrengelman.shadow" version "5.2.0"
+}
 
-mainClassName = "Exc_1.main"
+group 'com.github.gregwhitaker'
+version '0.1.0'
 
-sourceCompatibility = JavaVersion.VERSION_1_7
-targetCompatibility = JavaVersion.VERSION_1_7
+sourceCompatibility = 1.8
+mainClassName = 'example.executablejar.Main'
 
 repositories {
     mavenCentral()
 }
 
-jar {
-    manifest.attributes("Main-Class": mainClassName);
+dependencies {
 }
 
-task wrapperBuild(type: Wrapper) {
-    gradleVersion = "1.12"
+shadowJar {
+    archivesBaseName = 'example-shadow-app'
+    classifier = ''
+    version = ''
 }
