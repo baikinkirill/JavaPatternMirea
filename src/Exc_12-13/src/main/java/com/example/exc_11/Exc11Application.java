@@ -14,5 +14,8 @@ public class Exc11Application {
         SpringApplication.run(Exc11Application.class, args);
     }
 
+
+//    mvn clean compile assembly:single
+//    java -jar .\Exc_11-0.0.1-SNAPSHOT-jar-with-dependencies.jar input=input.txt output=out.txt
 }
 

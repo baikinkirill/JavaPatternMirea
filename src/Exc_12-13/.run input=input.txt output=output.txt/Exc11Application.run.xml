@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Exc11Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="Exc_11" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.exc_11.Exc11Application" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

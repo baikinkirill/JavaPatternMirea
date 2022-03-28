@@ -1,0 +1,12 @@
+management.endpoint.shutdown.enabled: true
+endpoints.cors.allowed-methods: GET,POST
+
+spring.profiles.active: development
+spring:
+  profiles: development
+
+program:
+  student:
+    last_name: Baikin
+    name: Kirill
+    group: IKBO-01-20

@@ -1,8 +1,11 @@
 package com.example.exc_11;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.PropertySource;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
@@ -16,10 +19,20 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Collections;
 import java.util.Scanner;
 
+
 @SpringBootApplication
 public class SpringBootNonWebExampleApplication implements CommandLineRunner {
     String input = null;
     String output = null;
+
+    @Value("${program.student.name}")
+    String name;
+
+    @Value("${program.student.last_name}")
+    String last_name;
+
+    @Value("${program.student.group}")
+    String group;
 
     public static void main(String[] args) {
         SpringApplication.run(SpringBootNonWebExampleApplication.class, args);
@@ -70,6 +83,14 @@ public class SpringBootNonWebExampleApplication implements CommandLineRunner {
     @PostConstruct
     public void init() {
         System.out.println("Bean is ready");
+
+        System.out.println("");
+        System.out.println("___");
+        System.out.println(name);
+        System.out.println(last_name);
+        System.out.println(group);
+        System.out.println("___");
+        System.out.println("");
     }
 
     @PreDestroy
