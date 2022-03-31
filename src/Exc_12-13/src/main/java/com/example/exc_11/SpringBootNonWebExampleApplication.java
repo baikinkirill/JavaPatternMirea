@@ -83,7 +83,6 @@ public class SpringBootNonWebExampleApplication implements CommandLineRunner {
     @PostConstruct
     public void init() {
         System.out.println("Bean is ready");
-
         System.out.println("");
         System.out.println("___");
         System.out.println(name);
