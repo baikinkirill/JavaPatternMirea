@@ -32,3 +32,150 @@
 25060 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
 25061 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
 25064 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+515  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.2.Final
+520  [main] INFO  com.Task18Application – Starting Task18Application using Java 17.0.2 on DESKTOP-E6HV2EE with PID 5232 (D:\GitHub\JavaPatternMirea\src\Exc_18\target\classes started by kiril in D:\GitHub\JavaPatternMirea\src\Exc_18)
+520  [main] INFO  com.Task18Application – No active profile set, falling back to 1 default profile: "default"
+1176 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1286 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 108 ms. Found 2 JPA repository interfaces.
+1852 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1867 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1867 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1867 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.58]
+1921 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1921 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1366 ms
+1977 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+2121 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+2197 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+2229 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.5.Final
+2338 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2422 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2747 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2762 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+3140 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3328 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+3424 [main] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration – Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+3485 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+3501 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+3501 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor – No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+3516 [main] INFO  com.Task18Application – Started Task18Application in 3.28 seconds (JVM running for 3.918)
+6143 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+6143 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+6143 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 0 ms
+6175 [http-nio-8080-exec-1] INFO  com.services.WorkerService – Read all workers
+17732 [http-nio-8080-exec-3] INFO  com.services.WorkerService – Read all workers
+27087 [http-nio-8080-exec-5] INFO  com.services.WorkerService – Read all workers
+27417 [http-nio-8080-exec-4] INFO  com.services.WorkerService – Read all workers
+27746 [http-nio-8080-exec-9] INFO  com.services.WorkerService – Read all workers
+27903 [http-nio-8080-exec-6] INFO  com.services.WorkerService – Read all workers
+59877 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+59877 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+59877 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+431  [main] INFO  com.Task18Application – Starting Task18Application using Java 17.0.2 on DESKTOP-E6HV2EE with PID 2584 (D:\GitHub\JavaPatternMirea\src\Exc_18\target\classes started by kiril in D:\GitHub\JavaPatternMirea\src\Exc_18)
+431  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.2.Final
+434  [main] INFO  com.Task18Application – No active profile set, falling back to 1 default profile: "default"
+1036 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1147 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 105 ms. Found 2 JPA repository interfaces.
+1635 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1645 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1645 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1645 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.58]
+1696 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1702 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1243 ms
+1763 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+1867 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+1935 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1957 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.5.Final
+2037 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2108 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2399 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2399 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+2779 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2969 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+3054 [main] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration – Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+3114 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+3134 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+3144 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor – No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+3154 [main] INFO  com.Task18Application – Started Task18Application in 2.949 seconds (JVM running for 3.45)
+13343 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+13343 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+13345 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 2 ms
+13371 [http-nio-8080-exec-1] INFO  com.services.WorkerService – Read all workers
+23710 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+23712 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+23714 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+432  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.2.Final
+434  [main] INFO  com.Task18Application – Starting Task18Application using Java 17.0.2 on DESKTOP-E6HV2EE with PID 15712 (D:\GitHub\JavaPatternMirea\src\Exc_18\target\classes started by kiril in D:\GitHub\JavaPatternMirea\src\Exc_18)
+434  [main] INFO  com.Task18Application – No active profile set, falling back to 1 default profile: "default"
+1001 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1107 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 102 ms. Found 2 JPA repository interfaces.
+1593 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1597 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1599 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1599 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.58]
+1660 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1660 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1193 ms
+1738 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+1848 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+1906 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1932 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.5.Final
+2010 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2078 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2358 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2364 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+2730 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2910 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2986 [main] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration – Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+3034 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+3052 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+3066 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor – No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+3072 [main] INFO  com.Task18Application – Started Task18Application in 2.87 seconds (JVM running for 3.419)
+86198 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+86213 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+86213 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+406  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.2.Final
+406  [main] INFO  com.Task18Application – Starting Task18Application using Java 17.0.2 on DESKTOP-E6HV2EE with PID 768 (D:\GitHub\JavaPatternMirea\src\Exc_18\target\classes started by kiril in D:\GitHub\JavaPatternMirea\src\Exc_18)
+406  [main] INFO  com.Task18Application – No active profile set, falling back to 1 default profile: "default"
+971  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1079 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 100 ms. Found 2 JPA repository interfaces.
+1549 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1549 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1549 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1549 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.58]
+1612 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1612 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1172 ms
+1675 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+1785 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+1833 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1864 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.5.Final
+1943 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2320 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2320 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+2696 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2884 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2963 [main] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration – Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+3026 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+3042 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+3073 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor – No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+3077 [main] INFO  com.Task18Application – Started Task18Application in 2.908 seconds (JVM running for 3.387)
+4919 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+4924 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+4924 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 0 ms
+4940 [http-nio-8080-exec-1] INFO  com.services.WorkerService – Read all workers
+5018 [http-nio-8080-exec-1] INFO  com.Aspect – WorkerService.readAll() completed in 78 ms fdfd
+8430 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+8430 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+8430 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+455  [main] INFO  com.Task18Application – Starting Task18Application using Java 17.0.2 on DESKTOP-E6HV2EE with PID 15668 (D:\GitHub\JavaPatternMirea\src\Exc_18\target\classes started by kiril in D:\GitHub\JavaPatternMirea\src\Exc_18)
+454  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.2.Final
+456  [main] INFO  com.Task18Application – No active profile set, falling back to 1 default profile: "default"
+1067 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1177 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 101 ms. Found 2 JPA repository interfaces.
+1706 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1711 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1712 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1712 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.58]
+1750 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1750 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1257 ms
+1835 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+2065 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
